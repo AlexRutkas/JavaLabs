@@ -21,6 +21,7 @@ public class ArrayStack implements Stack {
                 break;
             }
         }
+
         /*Integer[] arr = Arrays.copyOf(arrayStack, arrayStack.length);
         arr[arrayStack.length] = data;
         arrayStack = arr;*/
