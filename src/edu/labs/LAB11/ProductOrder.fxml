@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="132.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.labs.LAB11.ProductOrderController">
+   <children>
+      <TextField fx:id="nameF" layoutX="11.0" layoutY="14.0" promptText="product name" />
+      <TextField fx:id="priceF" layoutX="11.0" layoutY="50.0" promptText="price" />
+      <TextField fx:id="amountF" layoutX="11.0" layoutY="82.0" promptText="amount" />
+      <Button layoutX="181.0" layoutY="14.0" mnemonicParsing="false" onAction="#nextOrder" text="Next order" />
+      <Button layoutX="181.0" layoutY="63.0" mnemonicParsing="false" onAction="#finishShopping" text="Finish shopping" />
+   </children>
+</AnchorPane>
