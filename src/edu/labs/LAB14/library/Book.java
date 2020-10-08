@@ -2,18 +2,11 @@ package edu.labs.LAB14.library;
 
 public class Book {
     private String bookName;
-    private String readerName;
+    private int numberOfPages;
 
-    public Book(String bookName) {
+    public Book(String bookName, int numberOfPages) {
         this.bookName = bookName;
-    }
-
-    public String getReaderName() {
-        return readerName;
-    }
-
-    public void setReaderName(String readerName) {
-        this.readerName = readerName;
+        this.numberOfPages = numberOfPages;
     }
 
     public String getBookName() {
@@ -22,5 +15,13 @@ public class Book {
 
     public void setBookName(String bookName) {
         this.bookName = bookName;
+    }
+
+    public int getNumberOfPages() {
+        return numberOfPages;
+    }
+
+    public void setNumberOfPages(int numberOfPages) {
+        this.numberOfPages = numberOfPages;
     }
 }
